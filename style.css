@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 .container {
@@ -66,4 +67,25 @@ li.concluida {
   border-radius: 4px;
   padding: 5px 10px;
   cursor: pointer;
+}
+
+.filtros {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espaço entre os botões */
+}
+
+.filter-btn {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
 }

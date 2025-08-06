@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Lista de Tarefas</title>
-    
+    <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
       <h1>Lista de Tarefas</h1>
+      
       <div class="input-area">
         <input type="text" id="nova-tarefa-input" placeholder="Adicionar uma nova tarefa...">
         <button id="adicionar-tarefa-btn">Adicionar</button>
       </div>
+
+      <div class="filtros">
+        <button id="filter-todas" class="filter-btn active">Todas</button>
+        <button id="filter-ativas" class="filter-btn">Ativas</button>
+        <button id="filter-concluidas" class="filter-btn">Concluídas</button>
+      </div>
+      
       <ul id="lista-de-tarefas">
         </ul>
     </div>
